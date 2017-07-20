@@ -98,7 +98,7 @@ app.get( '/oauth2/callback', function( req, res ) {
 
         } else {
 
-            subscribeToEvents( req, res );
+            subscribeToEvents( sfClient, res );
 
         }
 
@@ -152,7 +152,7 @@ app.get( '/publish', function( req, res ) {
 // Functions
 // ==============================================
 
-function subscribeToEvents( req, res ) {
+function subscribeToEvents( sfClient, res ) {
 
     console.log( 'subscribing to events...' );
 
