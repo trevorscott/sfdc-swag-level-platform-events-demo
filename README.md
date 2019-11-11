@@ -47,7 +47,7 @@ SALESFORCE_API_VERSION=40.0
 
 ```
  
-7. From command line, navigate to the root folder of the project and run the command `node app.js`
+7. From command line, navigate to the root folder of the project and run the commands `npm install` and then `node app.js`
 
 ![screen shot](images/cli-start-app.png)
 
